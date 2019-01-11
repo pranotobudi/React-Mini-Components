@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Clock from './Clock';
 import NameForm from './NameForm'
+import TemperatureContainer from './TemperatureContainer'
 import * as serviceWorker from './serviceWorker';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
@@ -13,6 +14,7 @@ function MiniComponents(props){
         <div>
             <Clock/>
             <NameForm/>
+            <TemperatureContainer/>
         </div>
     );
 }
