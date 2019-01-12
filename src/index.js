@@ -6,6 +6,7 @@ import Clock from './Clock';
 import NameForm from './NameForm'
 import TemperatureContainer from './TemperatureContainer'
 import * as serviceWorker from './serviceWorker';
+import FilterComponent from './FilterComponent'
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<Clock />, document.getElementById('root'));
@@ -15,6 +16,7 @@ function MiniComponents(props){
             <Clock/>
             <NameForm/>
             <TemperatureContainer/>
+            <FilterComponent />
         </div>
     );
 }
